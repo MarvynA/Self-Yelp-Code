@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+/* Nav Bar Starts */
+header {
+    background-image: linear-gradient(to left,#CCF27F,#F5D149);
+}
+#NavBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 23px;
+     color:#8B323A;
+}
+
+#Download {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5% ;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 23px;
+     color:#8B323A;
+     text-decoration:underline;
+}
+/* Nav Bar Ends */
+
+/* Header Starts */
+header section {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+}
+
+header section h2 {
+     font-family: 'Inter';
+     font-weight: 700;
+     font-size: 40px;
+     color:#FFFFFF;
+}
+
+header section h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 23px;
+    color:#FFFFFF;
+}
+
+#LeftColumn .maroon {
+    color:#8B323A;
+}
+
+#LeftColumn {
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    margin: 0px;
+}
+
+/* Main Body Starts */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 4%;
+    row-gap: 20px ;
+}
+
+.Features {
+    height: 50px;
+    margin-left: -40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+     font-family: 'Inter';
+     color:#8B323A;
+}
+
+/* Footer Starts */
+footer {
+    background-image: linear-gradient(to left,#CCF27F,#F5D149);
+}

@@ -87,6 +87,10 @@ header section h3 {
     column-gap: 50px;
     margin: 3.5%;
     row-gap: 50px;
+    margin-left: 7%;
+}
+
+#Verified {
     margin-left: 10%;
 }
 
@@ -94,12 +98,14 @@ header section h3 {
      font-family: 'Inter';
      font-weight: 500;
      font-size: 23px;
+     margin-top: 10%;
 }
 
 #MainBody p {
     font-family: 'Inter';
     font-weight: 200;
     font-size: 20px;
+    margin: 0;
 }
 
 .Features {

@@ -4,21 +4,28 @@ body {
 /* Nav Bar Starts */
 header {
     background-image: linear-gradient(to left,#CCF27F,#F5D149);
+    height:600px;
 }
 #NavBar {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #Navigation {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
      font-family: 'Inter';
      font-weight: 500;
      font-size: 23px;
      color:#8B323A;
 }
+
+#Navigation .First {
+    margin-right: 8%;
+}
+
+
 
 #Download {
     list-style: none;
@@ -37,10 +44,17 @@ header {
 header section {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr ;
+    column-gap: 7%;
+    margin-left: 11%;
+}
+
+#Logo {
+    margin-left: 27%;
 }
 
 header section h2 {
+    display: flex;
+    justify-content: center;
      font-family: 'Inter';
      font-weight: 700;
      font-size: 40px;
@@ -48,10 +62,11 @@ header section h2 {
 }
 
 header section h3 {
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 23px;
-    color:#FFFFFF;
+    padding-top: 1%;
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 23px;
+      color:#FFFFFF;
 }
 
 #LeftColumn .maroon {
@@ -60,12 +75,12 @@ header section h3 {
 
 #LeftColumn {
     display: grid;
-    grid-template-rows: 40% 20% 40%;
+    grid-template-rows: 40% 23% 37%;
     margin: 0px;
 }
 
 /* Main Body Starts */
-section {
+#MainBody {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -86,4 +101,29 @@ section {
 /* Footer Starts */
 footer {
     background-image: linear-gradient(to left,#CCF27F,#F5D149);
+    height:125px;
+}
+
+#MailingList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    padding:0px;
+    border-color: #8B323A;
+}
+
+#Form h2 {
+    margin: 5px;
+     font-family: 'Inter';
+     font-weight: 700;
+     font-size: 30px;
+     color:#FFFFFF;
+}
+
+input {
+    width:300px;
+    height: 25px
 }
